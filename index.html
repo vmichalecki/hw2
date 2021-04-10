@@ -15,10 +15,10 @@
 <header>
     <h1>valerie<br>michalecki</h1>
     <nav>
-        <ul>
-            <li><a class="nav-link" href="#about-me">about me</a></li>
-            <li><a class="nav-link" href="my-work">my work</a></li>
-            <li><a class="nav-link" href="contact-me">contact me</a></li>
+        <ul class="nav-ul">
+            <li><a class="nav-link" href="#about">about me</a></li>
+            <li><a class="nav-link" href="#work">my work</a></li>
+            <li><a class="nav-link" href="#contact">contact me</a></li>
         </ul>
     </nav>
 </header>
@@ -27,35 +27,43 @@
     <div>
         <img class="hero" src="https://via.placeholder.com/1000x400" alt="hero">
     </div>
+    <hr>
     <section>
-        <h2>about me</h2>
-        <p>Art party dreamcatcher sustainable health goth godard mustache. Copper mug drinking vinegar try-hard cred
-            fanny pack retro gentrify waistcoat poke edison bulb asymmetrical.</p>
-        <p>I'm baby edison bulb affogato coloring book post-ironic hella, vexillologist shabby chic crucifix af hot
+        <p id="about" class="about">Art party dreamcatcher sustainable health goth godard mustache. Copper mug drinking
+            vinegar
+            try-hard cred
+            fanny pack retro gentrify waistcoat poke edison bulb asymmetrical. Glossier DIY kitsch four dollar toast
+            bespoke snackwave iceland kombucha normcore pop-up plaid green juice semiotics
+            deep v. Next level fashion bushwick.</p>
+        <p class="about">I'm baby mixtape you probably haven't heard of them DIY, tousled pitchfork leggings blue bottle
+            readymade letterpress
+            lumbersexual mumblecore. Affogato coloring book post-ironic hella, vexillologist pour-over woke crucifix af
+            hot
             chicken forage blue bottle offal. Hell of pok pok VHS activated charcoal, letterpress kale chips hot chicken
-            sartorial. Sustainable literally tattooed af.</p>
+            sartorial. Sustainable post-ironic literally tattooed af.</p>
     </section>
-    <article>
-        <h2><a href="placeholder">my work</a></h2>
-        <div>
-            <img src="https://via.placeholder.com/600x300" alt="placeholder project 1">
-            <img src="https://via.placeholder.com/300x300" alt="placeholder project 2">
-            <img src="https://via.placeholder.com/300x300" alt="placeholder project 3">
-            <img src="https://via.placeholder.com/300x300" alt="placeholder project 4">
-            <img src="https://via.placeholder.com/300x300" alt="placeholder project 5">
-            <img src="https://via.placeholder.com/300x300" alt="placeholder project 6">
-        </div>
-        <h2>contact me</h2>
-        <ul>
-            <li>email</li>
-            <li>phone</li>
-            <li>linkedin</li>
-            <li>github</li>
+    <div id="work" class="my-work">
+        <img class="first-project" src="./assets/images/css-snippet-screenshot.png" alt="css snippet screenshot">
+        <img class="projects" src="./assets/images/practice-portfolio-screenshot.png"
+            alt="practice portfolio screenshot">
+        <img class="projects" src="./assets/images/hw1-screenshot.png" alt="code refactoring screenshot">
+        <img class="projects" src="./assets/images/collect-your-familars-screenshot.png"
+            alt="collect your familiars scratch game screenshot">
+        <img class="projects" src="https://via.placeholder.com/300x300" alt="placeholder project 5">
+        <img class="projects" src="https://via.placeholder.com/300x300" alt="placeholder project 6">
+    </div>
+    <div class="contact-container">
+        <h2 id="contact">contact me</h2>
+        <ul class="contact-ul">
+            <li><a class="contact-li" href="mailto:valeriemichalecki@gmail.com">valeriemichalecki@gmail.com</a></li>
+            <li><a class="contact-li" href="tel:7737977972">773-797-7972</a></li>
+            <li><a class="contact-li" href="https://www.linkedin.com/in/vmichalecki">LinkedIn</a></li>
+            <li><a class="contact-li" href="https://github.com/vmichalecki">GitHub</a></li>
         </ul>
-    </article>
+    </div>
     <footer>
         <h4>this is my footer</h4>
-        <p>made with love, blood, sweat, and i'm baby by <span>valerie</span>.</p>
+        <p class="footer-p">made with love, blood, sweat, and i'm baby by <span class="valerie">valerie</span>.</p>
         <p>2021</p>
     </footer>
 </body>

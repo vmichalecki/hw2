@@ -11,6 +11,7 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	height: 200px;
 }
 
 h1 {
@@ -26,21 +27,24 @@ nav {
 	padding: 30px;
 }
 
-ul {
+.nav-ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	background-color: #fbc02d;
 }
+
 .nav-link {
 	padding: 0.75em;
+	display: inline-block;
 	background-color: #fbc02d;
 	font-weight: 600;
 	font-size: 150%;
 	color: #000000;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	width: 200px;
+	width: 175px;
+	text-align: center;
 }
 
 .nav-link:hover {
@@ -50,11 +54,102 @@ ul {
 
 .hero {
 	width: 100%;
-	padding-bottom: 3rem;
+}
+
+hr {
+	height: 8px;
+	background-color: #000000;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 200px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	width: 750px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 50px;
+	font-size: 125%;
+	line-height: 1.25;
+	text-align: justify;
+	padding-left: 30px;
+}
+
+.my-work {
+	padding-top: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-items: center;
+}
+
+.first-project {
+	width: 600px;
+	height: 300px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.projects {
+	width: 300px;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+}
+
+.contact-container {
+	display: block;
+	width: 500px;
+	margin: 15px auto;
+	padding: 30px;
+	border: 7px solid #000000;
+	background: #fbc02d;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
-    font
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	background: #fbc02d;
+	font-size: 200%;
+	padding: 15px;
+}
 
+.contact-ul {
+	display: block;
+	background-color: #fbc02d;
+	text-align: center;
+}
+
+li {
+	background-color: #fbc02d;
+	padding-top: 15px;
+}
+
+.contact-li {
+	margin: auto;
+	background-color: #fbc02d;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 125%;
+	font-weight: 600;
+	color: #000000;
+}
+
+.contact-li:hover {
+	color: #c49000;
+	font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.footer-p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.valerie {
+	font-family: 'Roboto Slab', serif;
 }
