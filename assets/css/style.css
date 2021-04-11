@@ -1,8 +1,8 @@
 :root {
-    --white: #ffffff;
-    --yellow: rgba(232, 102, 236, 1);
-    --black: #333333;
-	--dark-yellow: var(--dark-yellow);
+	--white: #ffffff;
+	--yellow: #fbc02d;
+	--black: #333333;
+	--dark-yellow: #c49000;
 }
 
 * {
