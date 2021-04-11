@@ -266,7 +266,7 @@ footer {
 	}
 
 	.nav-link {
-		padding: .5em;
+		padding: 0.5em;
 		font-size: 1.5em;
 	}
 
@@ -275,4 +275,4 @@ footer {
 		padding: 0px;
 		margin: 0;
 	}
-
+}
