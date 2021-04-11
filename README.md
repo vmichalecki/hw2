@@ -14,4 +14,4 @@ https://vmichalecki.github.io/hw2/
 **Clone my repo:**
 https://github.com/vmichalecki/hw2
 
-![hw1 screenshot](/assets/images/hw1-screenshot.png)
+![portfolio screenshot](/assets/images/hw-2-screenshot.png)
