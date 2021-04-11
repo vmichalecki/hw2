@@ -1,17 +1,17 @@
-# Homework Two
+# My Portfolio
 
-## Color Scheme:
-### Gray
-    Primary #f5f5f5
-    Light #ffffff
-    Dark #c2c2c2
-### Yellow
-    Secondary #fbc02d
-    Light #fff263
-    Dark #c49000
+## Description
 
-Text #000000
+My first portfolio with my name, a recent photo, and jump-to links to sections about me, my work with links to deployed projects and upcoming project placeholders, and my contact information with links.
 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto Slab', serif;
+This project has a responsive layout that adapts to your viewport.
+
+### Installation
+
+**View my project as it is deployed via GitHub:**
+https://vmichalecki.github.io/hw2/
+
+**Clone my repo:**
+https://github.com/vmichalecki/hw2
+
+![hw1 screenshot](/assets/images/hw1-screenshot.png)
