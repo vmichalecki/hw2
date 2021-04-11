@@ -1,19 +1,18 @@
 :root {
-	--white: #ffffff;
+	--white: #f5f5f5;
 	--yellow: #fbc02d;
 	--black: #333333;
 	--dark-yellow: #c49000;
 }
 
 * {
-	background-color: #f5f5f5;
-	box-sizing: border-box;
+	background-color: var(--white);
 }
 
 header {
 	position: sticky;
 	top: 0;
-	background-color: var(--white);
+	background-color: var(--yellow);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -40,6 +39,7 @@ nav {
 	flex-direction: row;
 	justify-content: space-evenly;
 	background-color: var(--yellow);
+	padding-right: 3rem;
 }
 
 .nav-link {
@@ -51,7 +51,7 @@ nav {
 	color: var(--black);
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	width: 9rem;
+	width: 10rem;
 	text-align: center;
 }
 
@@ -65,9 +65,8 @@ nav {
 }
 
 hr {
-	height: 0.08px;
+	height: 0.8rem;
 	background-color: var(--black);
-	position: -webkit-sticky;
 	position: sticky;
 	top: 200px;
 	z-index: 10;
@@ -132,8 +131,6 @@ hr {
 }
 
 .first-project {
-	width: 100%;
-	height: auto;
 	padding: 0;
 	margin: 0;
 	display: block;
@@ -142,8 +139,6 @@ hr {
 }
 
 .projects {
-	width: 100%;
-	height: auto;
 	padding: 0;
 	margin: 0;
 	display: block;
@@ -159,8 +154,8 @@ hr {
 	display: block;
 	width: 90%;
 	margin: 1.5rem auto;
-	padding: 3rem;
-	border: 0.08rem solid var(--black);
+	padding: 1rem;
+	border: 0.8rem solid var(--black);
 	background: var(--yellow);
 }
 
@@ -169,7 +164,7 @@ h2 {
 	text-align: center;
 	background: var(--yellow);
 	font-size: 200%;
-	padding: 1.5rem;
+	line-height: 1.25;
 }
 
 .contact-ul {
@@ -180,7 +175,7 @@ h2 {
 
 li {
 	background-color: var(--yellow);
-	padding-top: 1.5rem;
+	line-height: 1.25;
 }
 
 .contact-li {
@@ -188,7 +183,7 @@ li {
 	background-color: var(--yellow);
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 125%;
+	font-size: 1rem;
 	font-weight: 600;
 	color: var(--black);
 }
@@ -198,28 +193,44 @@ li {
 	font-family: 'Roboto Slab', serif;
 }
 
-h4 {
-	font-family: 'Roboto Slab', serif;
+footer {
+	margin-top: 1.5rem;
 }
 
 .footer-p {
-	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	padding: 3rem;
 }
 
 .valerie {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 1072px) {
 	header {
+		box-sizing: border-box;
 		flex-direction: column;
 		width: 100%;
 		flex-grow: 1;
 		font-size: 0.7em;
 	}
 
+	h1 {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.nav-ul {
+		display: flex;
+		flex-grow: 1;
+		max-width: inherit;
+		padding-right: 0;
+	}
+
 	.nav-link {
 		padding: 0.5em;
+		font-size: 2em;
 	}
 
 	.hero {
@@ -232,3 +243,36 @@ h4 {
 		justify-content: space-around;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h1 {
+		padding: 0;
+		text-align: center;
+	}
+
+	nav {
+		padding: 0.5rem;
+	}
+
+	.nav-ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav-link {
+		padding: .5em;
+		font-size: 1.5em;
+	}
+
+	.contact-container footer {
+		max-width: 90%;
+		padding: 0px;
+		margin: 0;
+	}
+
