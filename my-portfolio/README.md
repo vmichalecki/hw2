@@ -9,9 +9,11 @@ This project has a responsive layout that adapts to your viewport.
 ### Installation
 
 **View my project as it is deployed via GitHub:**
-https://vmichalecki.github.io/hw2/
+https://vmichalecki.github.io/my-portfolio/
 
 **Clone my repo:**
-https://github.com/vmichalecki/hw2
+https://github.com/vmichalecki/my-portfolio/
 
 ![portfolio screenshot](/assets/images/hw-2-screenshot.png)
+
+
