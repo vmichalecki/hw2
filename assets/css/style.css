@@ -5,7 +5,7 @@
 	--dark-yellow: #c49000;
 }
 
-* {
+body {
 	background-color: var(--white);
 }
 
@@ -61,8 +61,7 @@ nav {
 }
 
 .hero {
-	width: 100%;
-}
+	width: 100%;}
 
 hr {
 	height: 0.8rem;
@@ -77,12 +76,18 @@ hr {
 	flex-direction: column;
 	width: 90%;
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 50px;
 	font-size: 125%;
 	line-height: 1.25;
 	text-align: justify;
+	padding-bottom: 25px;
 	margin: 0 auto;
-	scroll-margin-top: 10em;
+	scroll-margin-top: 12em;
+}
+
+.about-container,
+.repo-container {
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 
 .my-work {
@@ -94,6 +99,7 @@ hr {
 	justify-content: center;
 	justify-items: center;
 	scroll-margin-top: 10em;
+	border: 0.8rem solid var(--black);
 }
 
 .container-first {
@@ -150,6 +156,25 @@ hr {
 	width: 100%;
 }
 
+.repo-ul {
+	display: block;
+	text-align: center;
+	list-style: none;
+}
+
+li {
+	line-height: 1.25;
+}
+
+.repo-li {
+	margin: auto;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--black);
+}
+
 .contact-container {
 	display: block;
 	width: 90%;
@@ -157,30 +182,28 @@ hr {
 	padding: 1rem;
 	border: 0.8rem solid var(--black);
 	background: var(--yellow);
+	background-color: var(--yellow);
 }
 
 h2 {
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
-	background: var(--yellow);
 	font-size: 200%;
 	line-height: 1.25;
 }
 
 .contact-ul {
+	background: var(--yellow);
 	display: block;
 	background-color: var(--yellow);
 	text-align: center;
 }
 
-li {
-	background-color: var(--yellow);
-	line-height: 1.25;
-}
-
-.contact-li {
+.contact-li,
+.nav-li {
 	margin: auto;
 	background-color: var(--yellow);
+	background: var(--yellow);
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1rem;
