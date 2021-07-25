@@ -183,6 +183,7 @@ li {
   border: 0.8rem solid var(--black);
   background: var(--yellow);
   background-color: var(--yellow);
+  text-align: center;
 }
 
 h2 {
@@ -209,26 +210,37 @@ h2 {
   font-size: 1rem;
   font-weight: 600;
   color: var(--black);
+  line-height: 2;
 }
 
-.contact-li:hover {
+.contact-li:hover,
+.resume:hover {
   color: var(--dark-yellow);
   font-family: "Roboto Slab", serif;
 }
 
+.resume {
+  color: var(--black);
+  font-family: "Open Sans", sans-serif;
+  font-size: 200%;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
 footer {
-  margin-top: 1.5rem;
+  margin: 2.5rem auto;
+  padding: 5rem;
 }
 
 .footer-p {
-  text-align: center;
+  text-align: right;
   font-family: "Roboto Slab", serif;
-  padding: 3rem;
 }
 
 .valerie {
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
+  font-size: 200%;
 }
 
 @media screen and (max-width: 1072px) {
