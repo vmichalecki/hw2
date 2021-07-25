@@ -28,6 +28,16 @@ h1 {
   padding-left: 3rem;
 }
 
+.plain {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.plain:hover {
+  color: var(--dark-yellow);
+  font-family: "Open Sans", sans-serif;
+}
+
 nav {
   background-color: var(--yellow);
   padding: 0.5rem;
