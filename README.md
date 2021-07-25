@@ -11,7 +11,4 @@ This project has a responsive layout that adapts to your viewport.
 **View my project as it is deployed via GitHub:**
 https://vmichalecki.github.io/my-portfolio/
 
-**Clone my repo:**
-https://github.com/vmichalecki/my-portfolio/
-
-![portfolio screenshot](/assets/images/my-portfolio-screen.png)
+![portfolio screenshot](/assets/images/my-portfolio-screen-2.png)
