@@ -14,6 +14,4 @@ https://vmichalecki.github.io/my-portfolio/
 **Clone my repo:**
 https://github.com/vmichalecki/my-portfolio/
 
-![portfolio screenshot](/assets/images/hw-2-screenshot.png)
-
-
+![portfolio screenshot](/assets/images/my-portfolio-screen.png)
